@@ -9,6 +9,8 @@
     margin:10px;
     background-color:rgb(188, 210, 230);
     border: 1px solid red;
+    transition:0.2s ease-in-out;
+    box-shadow: 5px 5px 15px;
 }
 
 .image-container{
@@ -23,13 +25,13 @@
 .image-container img{
      width:100%;
      height:auto;
-    background-color: #9edcf9;
-     transition:0.3s ease;
+     background-color: #9edcf9;
+     
+     
  
  }
  
- .imag-container:hover {
-     background-color: rgb(101, 164, 219);
+  .info-container:hover {
      transform:scale(1.1);/* what is ease*/
- 
+     box-shadow: 10px px 20;
 }
